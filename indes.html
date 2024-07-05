@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Leobarber</title>
+        <link rel="stylesheet" href="assets/css/style2.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/materialdesignicons.min.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body>
+
+         <nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
+            <div class="container">
+                
+                        <img src="assets/imagen/1.png" alt="Mi imagen">
+                        
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                        <i class="mdi mdi-menu"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item active">
+                                <a href="index.html" class="nav-link">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#trabajos" class="nav-link">Trabajos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#servicios" class="nav-link">Servicios</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+
+        <section class="home-bg section h-100vh" id="home">
+            <video class="bg-vid" autoplay loop muted>
+                <source src="assets/video/video-bg.mp4  " type="video/mp4">
+            </video>
+            <div class="bg-overlay"></div>
+            
+        </section>
+
+    
+
+        
+
+        <script>
+function openLink(url) {
+    window.open(url, '_blank');
+}
+</script>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+         <script src="assets/js/jquery.min.js"></script>
+         <script src="assets/js/typed.js"></script>         
+        <script>
+            $(".element").each(function() {
+                var $this = $(this);
+                $this.typed({
+                    strings: $this.attr('data-elements').split(','),
+                    typeSpeed: 100,
+                    backDelay: 3000
+                });
+            });
+        </script>
+    </body>
+</html>
